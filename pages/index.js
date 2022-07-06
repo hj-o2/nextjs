@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 import utilStyle from "../styles/utils.module.css";
-import Layout, { siteTitle } from "../components/layout";
+import Layout, { siteTitle } from "../components/Layout";
 import { getPostsData } from "../lib/post";
 
 // SSGの場合
