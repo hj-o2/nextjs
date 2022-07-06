@@ -18,7 +18,7 @@ export async function getStaticProps() {
   };
 }
 
-// SSRの場合
+// SSRの場合!
 // export async function getServerSideProps(cxt) { // context = cxt
 //   const allPostsData = getPostsData(); // id, title, date, thumbnail
 //   console.log(allPostsData);
